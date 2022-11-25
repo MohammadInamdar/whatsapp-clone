@@ -1,0 +1,86 @@
+.sidebar{
+    flex: 0.35;
+    background-color: #fff;
+}
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+    padding: 10px;
+    background-color: #ededed;
+}
+.header__right{
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+ min-width: 10vw;
+}
+.header__right svg{
+    font-size: 20px;
+}
+.sidebar__search{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 40px;
+    padding:10px;
+}
+.sidebar__searchConatainer{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 35px;
+    border-radius: 20px;
+}
+.sidebar__searchConatainer input {
+   border: 0;
+   margin-left: 10px;
+   outline: 0;
+   width: 100%;
+}
+
+
+/* ...................Sidebar__Chat compoent css start here....... */
+.sidebar_Chats{
+    display: flex;
+    background-color: #fff;
+
+}
+.sidebar__chat{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+} 
+.sidebar__chat :hover{
+cursor: pointer;
+background-color: #ebebeb;
+
+}
+
+.sidebar__chatInfo {
+    margin-left: 15px;
+}
+.sidebar__chatInfo h2{
+    font-size: 18px;
+    
+}
+
+
+
+/* sidebarchat using props css start here  */
+.sidebar__chat > h2{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar__chat .MuiAvatar-circular{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+}
